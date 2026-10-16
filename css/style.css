@@ -1,0 +1,101 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-around;
+}
+
+.one {
+    background-color: rgb(214, 174, 174);
+    height: 150px;
+    width: 100px;
+}
+
+.two {
+    background-color: rgb(0, 0, 255);
+    height: 150px;
+    width: 100px;
+}
+
+.parent-a {display: flex;
+    justify-content: space-between;
+}
+
+.one-1 {
+    background-color: rgb(49, 126, 30);
+    height: 150px;
+    width: 100px;
+}
+
+.two-1 {
+    background-color: rgb(255, 0, 255);
+    height: 150px;
+    width: 100px;
+}
+
+.parent-b {display: flex;
+    justify-content: space-around;
+}
+
+.one-2 {
+    background-color: rgb(0, 255, 0);
+    height: 150px;
+    width: 100px;
+}
+
+.two-2 {
+    background-color: rgb(255, 255, 0);
+    height: 150px;
+    width: 100px;
+}
+
+.parent-c {display: flex;
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    justify-content: space-around;
+}
+
+.one-3 {
+    background-color: rgb(0, 255, 255);
+    height: 150px;
+    width: 100px;
+}
+
+.two-3 {
+    background-color: rgb(255, 0, 0);
+    height: 150px;
+    width: 100px;
+}
+
+.parent-d {display: flex;
+
+    margin-top: 20px;
+    margin-left: 600px;
+}
+
+.one-4 {
+    background-color: rgb(0, 0, 255);
+    height: 150px;
+    width: 100px;
+}
+
+.two-4 {
+    background-color: rgb(53, 16, 16);
+    height: 150px;
+    width: 100px;
+}
+
+.bannerbg {
+    min-height: 100vh;
+    background: url("../images/pexels-anaitttttt-6604280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
